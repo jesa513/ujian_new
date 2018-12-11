@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Tina",
+      "password": 123123,
+      "email": "Tina@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "tono",
+      "password": 456456,
+      "email": "jamaludinfikrii@gmail.com"
+    },
+    {
+      "username": "Andi",
+      "email": "andi@yahoo.com",
+      "password": "ASF",
+      "id": 3
+    },
+    {
+      "username": "Anis",
+      "email": "anis",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "produk": [
+    {
+      "namaproduk": "Popok single",
+      "kategori": "Bronson",
+      "harga": 20000,
+      "deskripsi": "Popok Lembut",
+      "img": "https://tse3.mm.bing.net/th?id=OIP.ADucTd1nBIJAHXMpt06i0gHaG7&pid=15.1&P=0&w=169&h=159",
+      "id": 1
+    },
+    {
+      "namaproduk": "Popok Nyaman",
+      "kategori": "Uchiha",
+      "harga": 25000,
+      "deskripsi": "Popok Nyaman dan Sehat",
+      "img": "http://www.adabelanja.com/media/catalog/product/cache/1/image/bcecb7c7643ffea3dd01ff8a5f82788c/d/r/drp.jpg",
+      "id": 2
+    },
+    {
+      "namaproduk": "Popok Poko",
+      "kategori": "Bronson",
+      "harga": 8000,
+      "deskripsi": "Popok Poko yang terbaik",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVlZL72Th6kyFIew67acTHYJEx2yVPa6LRLdZy0MgDAn4D4uN7",
+      "id": 3
+    },
+    {
+      "namaproduk": "Popok Perguso",
+      "kategori": "Bunting",
+      "harga": 9000,
+      "deskripsi": "Popok Perguso tidaklah mudah",
+      "img": "https://www.obral.co/details/1050/images/universal_dr--p-adult-diapers-basic-popok-dewasa--size-xl-8-pcs-_full03.jpg",
+      "id": 4
+    },
+    {
+      "namaproduk": "Popok Pampers",
+      "kategori": "Uchiha",
+      "harga": 20000,
+      "deskripsi": "Popok Pampers tahan air",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrKYQ6_um_Yqd9f3UVCmyYCCNAitu5rM2_4KuOIWJiQgCOt4AfwQ",
+      "id": 5
+    },
+    {
+      "namaproduk": "Popok Merries",
+      "kategori": "Bunting",
+      "harga": 10000,
+      "deskripsi": "Popok Merries untuk semua ukuran",
+      "img": "https://www.17tahun.id/details/1050/images/merries_merries-tape-nb-popok-bayi--24pcs-_full01.jpg",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "username": "tono",
+      "id_produk": 1,
+      "nama_produk": "Popok single",
+      "img": "https://tse3.mm.bing.net/th?id=OIP.ADucTd1nBIJAHXMpt06i0gHaG7&pid=15.1&P=0&w=169&h=159",
+      "harga_produk": 20000,
+      "kuantitas": "1",
+      "total": 20000,
+      "id_order": 1,
+      "id": 1
+    },
+    {
+      "username": "tono",
+      "id_produk": 2,
+      "nama_produk": "Popok Nyaman",
+      "img": "http://www.adabelanja.com/media/catalog/product/cache/1/image/bcecb7c7643ffea3dd01ff8a5f82788c/d/r/drp.jpg",
+      "harga_produk": 25000,
+      "kuantitas": "2",
+      "total": 50000,
+      "id_order": 1,
+      "id": 2
+    }
+  ],
+  "history": {
+    "username": "Tina",
+    "order": [
+      {
+        "username": "Tina",
+        "id_produk": 2,
+        "nama_produk": "Popok Nyaman",
+        "img": "http://www.adabelanja.com/media/catalog/product/cache/1/image/bcecb7c7643ffea3dd01ff8a5f82788c/d/r/drp.jpg",
+        "harga_produk": 25000,
+        "kuantitas": "2",
+        "total": 50000,
+        "id_order": 1,
+        "id": 1
+      },
+      {
+        "username": "Tina",
+        "id_produk": 3,
+        "nama_produk": "Popok Poko",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVlZL72Th6kyFIew67acTHYJEx2yVPa6LRLdZy0MgDAn4D4uN7",
+        "harga_produk": 8000,
+        "kuantitas": "1",
+        "total": 8000,
+        "id_order": 1,
+        "id": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+export const USER_LOGIN_SUCCESS = 'a';
+export const USER_NOT_FOUND = 'b';
+export const LOGIN_SYSTEM_ERROR = 'c'
+export const LOGIN_LOADING = 'd'
+export const LOGOUT = 'e'
+export const REGISTER_LOADING = 'f'
+export const COOKIE_CHECKED = 'g'
+export const EDIT_DATA = 'h'
+export const SELECT_PRODUK = 'i'
+export const PLUS_CART = 'j'
